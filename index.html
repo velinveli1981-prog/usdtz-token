@@ -1,89 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>USDT.Z Official Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>USDT.Z – Official Page</title>
+  <meta name="description" content="USDT.Z (USDTZ) is an ERC-20 token on Ethereum for fast and reliable payments. Contract: 0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="USDT.Z – Official Page" />
+  <meta property="og:description" content="USDT.Z (USDTZ) is an ERC-20 token on Ethereum. Contract: 0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content=" https://velinveli1981-prog.github.io/usdtz-token/" />
+  <meta property="og:image" content=" https://velinveli1981-prog.github.io/usdtz-token/logo.png" />
+
   <style>
-    body {
-      font-family: 'Inter', Arial, sans-serif;
-      background: #f9fafb;
-      color: #111;
-      text-align: center;
-      margin: 0;
-      padding: 0;
+    :root{
+      --bg:#0e1117; --card:#161b22; --text:#e6edf3; --muted:#9aa4b2; --primary:#00d09f; --primary-2:#14c2f3;
+      --border:#273043;
     }
-    header {
-      background: linear-gradient(90deg, #00a884, #007960);
-      color: white;
-      padding: 40px 20px;
-    }
-    header img {
-      width: 90px;
-      height: 90px;
-    }
-    h1 {
-      font-size: 2.2em;
-      margin: 10px 0;
-    }
-    p {
-      font-size: 1.1em;
-      line-height: 1.5em;
-      max-width: 700px;
-      margin: 15px auto;
-    }
-    section {
-      margin: 40px auto;
-      padding: 20px;
-      max-width: 900px;
-      background: #fff;
-      box-shadow: 0 0 12px rgba(0,0,0,0.08);
-      border-radius: 8px;
-    }
-    footer {
-      background: #f3f4f6;
-      color: #555;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-    a {
-      color: #00856f;
-      text-decoration: none;
-      font-weight: 500;
-    }
+    *{box-sizing:border-box}
+    html,body{margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial,"Apple Color Emoji","Segoe UI Emoji";}
+    a{color:var(--primary-2); text-decoration:none}
+    .wrap{max-width:980px;margin:0 auto;padding:32px 16px}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px}
+    .hero{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    .logo{width:96px;height:96px;border-radius:20px;background:#0b1520;display:grid;place-items:center;border:1px solid var(--border)}
+    .logo img{width:72px;height:72px;object-fit:contain}
+    h1{margin:0;font-size:28px;letter-spacing:.5px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .pill{display:inline-flex;gap:10px;align-items:center;padding:12px 16px;border-radius:12px;border:1px solid var(--border);background:#0b1220}
+    .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid var(--border);background:#0b1420; color:var(--text); cursor:pointer}
+    .btn.primary{background:linear-gradient(135deg,var(--primary),var(--primary-2));color:#001014;border:none}
+    .btn:hover{filter:brightness(1.05)}
+    .section{margin-top:28px}
+    .footer{margin-top:28px;color:var(--muted);font-size:14px;text-align:center}
+    @media (max-width:720px){.grid{grid-template-columns:1fr}}
+    .small{font-size:14px;color:var(--muted)}
+    .kbd{display:inline-block;padding:2px 6px;border:1px solid var(--border);border-bottom-width:2px;border-radius:6px;background:#0b1520}
   </style>
 </head>
 <body>
+  <div class="wrap">
+    <div class="card">
+      <div class="hero">
+        <div class="logo">
+          <!-- ако качиш logo.png в същата папка, ще се зареди автоматично -->
+          <img src="./logo.png" alt="USDT.Z logo" onerror="this.replaceWith(document.createTextNode('USDT.Z'))">
+        </div>
+        <div>
+          <h1>USDT.Z (USDTZ)</h1>
+          <div class="subtitle">ERC-20 token on Ethereum • Payments • 18 decimals • Max supply: 1,000,000,000</div>
+          <div class="grid">
+            <div class="pill">
+              <strong>Contract:</strong>
+              <span class="mono" id="contract">0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058</span>
+            </div>
+            <div class="pill"><strong>Network:</strong> Ethereum Mainnet</div>
+          </div>
 
-<header>
-  <img src=" https://raw.githubusercontent.com/velinveli1981-prog/usdtz-token/main/assets/usdtz_banner.svg" alt="USDT.Z Logo">
-  <h1>USDT.Z Token</h1>
-  <p>Fast • Reliable • Decentralized ERC-20 Token</p>
-</header>
+          <div class="btns">
+            <a class="btn primary" href=" https://app.uniswap.org/#/swap?outputCurrency=0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058&chain=ethereum" target="_blank" rel="noopener">Buy on Uniswap</a>
+            <a class="btn" href=" https://etherscan.io/token/0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058" target="_blank" rel="noopener">View on Etherscan</a>
+            <button class="btn" id="copy">Copy contract</button>
+            <button class="btn" id="add">Add to MetaMask</button>
+          </div>
 
-<section>
-  <h2>About USDT.Z</h2>
-  <p><strong>USDT.Z (USDTZ)</strong> is an ERC-20 token built on the Ethereum blockchain with a total supply of <strong>1,000,000,000</strong> units.  
-  It is designed for secure and efficient transactions, compatible with major DeFi platforms and popular Ethereum wallets.</p>
+          <div class="section small">
+            Official links:
+            <a href=" https://twitter.com/" id="xlink" target="_blank" rel="noopener">X/Twitter</a> •
+            <a href=" https://t.me/" id="tglink" target="_blank" rel="noopener">Telegram</a> •
+            <a href=" https://github.com/velinveli1981-prog/usdtz-token" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
 
-  <h3>Token Information</h3>
-  <p>
-    <strong>Contract Address:</strong> <a href=" https://etherscan.io/address/0xB4e1C7831CDd2fE1b2320dB0709696Fd37d5f5058" target="_blank">0xB4e1C7831CDd2fE1b2320dB0709696Fd37d5f5058</a><br>
-    <strong>Symbol:</strong> USDTZ<br>
-    <strong>Decimals:</strong> 18<br>
-    <strong>Network:</strong> Ethereum (ERC-20)
-  </p>
+      <div class="section">
+        <h2 style="margin:0 0 8px 0;font-size:20px">About</h2>
+        <p style="margin:0;color:var(--muted)">
+          USDT.Z (USDTZ) is a community-driven ERC-20 token built for fast and reliable transfers and simple DeFi integrations.
+          Liquid pair: <span class="mono">USDTZ / ETH</span> on Uniswap v4.
+        </p>
+      </div>
 
-  <h3>Use Case</h3>
-  <p>
-    The token supports fast and low-cost payments, making it ideal for peer-to-peer transactions, DeFi liquidity, and crypto payments integration.
-  </p>
-</section>
+      <div class="section">
+        <h3 style="margin:0 0 8px 0;font-size:18px">How to add to MetaMask</h3>
+        <ol class="small" style="margin-top:6px">
+          <li>Click <span class="kbd">Add to MetaMask</span> above.</li>
+          <li>Confirm in your wallet.</li>
+        </ol>
+      </div>
 
-<footer>
-  <p>© 2025 USDT.Z Project — Official Website • Built on Ethereum Network</p>
-  <p>Contact: <a href="mailto: debitnl5@gmail.com"> debitnl5@gmail.com</a></p>
-</footer>
+      <div class="footer">
+        © <span id="year"></span> USDT.Z • Contract: <span class="mono">0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058</span>
+      </div>
+    </div>
+  </div>
 
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // copy contract
+    document.getElementById('copy').onclick = async () => {
+      const addr = document.getElementById('contract').textContent.trim();
+      try { await navigator.clipboard.writeText(addr); alert('Contract copied: ' + addr); }
+      catch(e){ prompt('Copy contract address:', addr); }
+    };
+
+    // add to MetaMask
+    document.getElementById('add').onclick = async () => {
+      const tokenAddress = '0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058';
+      const tokenSymbol = 'USDTZ';
+      const tokenDecimals = 18;
+      const tokenImage = location.origin + location.pathname.replace(/\/$/, '') + '/logo.png';
+      if (!window.ethereum){ alert('MetaMask not detected.'); return; }
+      try{
+        const wasAdded = await window.ethereum.request({
+          method: 'wallet_watchAsset',
+          params: { type: 'ERC20', options: { address: tokenAddress, symbol: tokenSymbol, decimals: tokenDecimals, image: tokenImage } }
+        });
+        if (wasAdded) alert('USDT.Z added to MetaMask.');
+      }catch(err){ console.error(err); alert('MetaMask error: ' + (err.message||err)); }
+    };
+  </script>
 </body>
 </html>
