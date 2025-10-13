@@ -1,39 +1,67 @@
-# USDT.Z Token
+# 🪙 USDT.Z – Official Ethereum Token
 
-**USDT.Z (USDTZ)** is an ERC-20 token deployed on the Ethereum blockchain.  
-It is designed for **fast, reliable, and transparent digital payments** with low transaction costs and full wallet compatibility.
+![USDT.Z Logo]( https://github.com/velinveli1981-prog/usdtz-token/blob/main/logo.svg)
 
----
-
-### 🔹 Token Information
-- **Token Name:** USDT.Z  
-- **Symbol:** USDTZ  
-- **Decimals:** 18  
-- **Total Supply:** 1,000,000,000 USDTZ  
-- **Network:** Ethereum (ERC-20)  
-- **Contract Address:** [0xb4e1c7831CD2dFE1b2320dB0709696f3d75Df5058]( https://etherscan.io/token/0xb4e1c7831CD2dFE1b2320dB0709696f3d75Df5058)  
+**Contract Address:** `0xb4e1C7831CDD2FE1b2320dB079696f3d75DF5058`  
+**Network:** Ethereum Mainnet (ERC-20 Standard)  
+**Symbol:** USDTZ  
+**Total Supply:** 1,000,000,000 USDTZ  
+**Email:** debitnl5@gmail.com  
+**Official Whitepaper:** [WHITEPAPER.md](./WHITEPAPER.md)
 
 ---
 
-### 🔹 Features
-- 💸 Built for fast and secure transactions  
-- 🌐 Compatible with all major wallets and DeFi platforms  
-- 🔒 Transparent smart contract verified on Etherscan  
-- ⚙️ Ready for integration in payment systems and exchanges  
+## 🌍 About USDT.Z
+USDT.Z is a decentralized ERC-20 token designed to offer fast, secure, and transparent digital transactions.  
+Built on the Ethereum blockchain, it focuses on liquidity, user trust, and sustainable decentralized finance (DeFi) integration.  
 
 ---
 
-### 🔹 Project Links
-- **Official Website:** [ https://velinveli1981-prog.github.io/usdtz-token/](https://velinveli1981-prog.github.io/usdtz-token/)  
-- **Smart Contract:** [View on Etherscan]( https://etherscan.io/token/0xb4e1c7831CD2dFE1b2320dB0709696f3d75Df5058)  
-- **Logo:** [USDT.Z Logo]( https://raw.githubusercontent.com/velinveli1981-prog/usdtz-token/main/logo.svg)  
+## 🚀 Key Features
+- ✅ **Decentralized Payments:** Send and receive funds instantly worldwide.  
+- 🔐 **Secure Smart Contract:** Verified and transparent ERC-20 code.  
+- 💧 **Liquidity Ready:** Compatible with Uniswap and other DEX platforms.  
+- 💎 **Scalable Supply:** Total 1 billion tokens for global usage.  
+- 🌐 **Interoperability:** Designed for DeFi, NFT, and Web3 applications.
 
 ---
 
-### 🔹 Contact
-For technical or listing inquiries, please contact:  
-📧 ** debitnl5@gmail.com**
+## 📊 Tokenomics
+
+| Parameter | Value |
+|------------|--------|
+| Token Name | USDT.Z |
+| Symbol | USDTZ |
+| Total Supply | 1,000,000,000 USDTZ |
+| Decimals | 18 |
+| Network | Ethereum Mainnet |
 
 ---
 
-© 2025 USDT.Z Project. All rights reserved.
+## 🗺️ Roadmap
+
+| Phase | Target |
+|-------|---------|
+| Q4 2025 | Token verification on Etherscan and DEXTools |
+| Q1 2026 | Liquidity pool deployment and partnerships |
+| Q2 2026 | Marketing expansion and CEX listings |
+| Q3 2026 | Staking and governance features |
+| Q4 2026 | USDT.Z Wallet & DAO launch |
+
+---
+
+## 🔒 Security
+USDT.Z follows the ERC-20 standard and is compiled using Solidity 0.8.x for enhanced safety and contract reliability.
+
+---
+
+## ⚠️ Disclaimer
+USDT.Z does not represent a security or financial product.  
+Participation is voluntary, and users are encouraged to do their own research (DYOR).
+
+---
+
+### 📬 Contact
+- 📧 **Email:** debitnl5@gmail.com  
+- 🌐 **GitHub:** [ https://github.com/velinveli1981-prog/usdtz-token](https://github.com/velinveli1981-prog/usdtz-token)  
+- 💠 **Powered by:** Ethereum Network
